@@ -6,17 +6,17 @@
 /*   By: judcarra <judcarra@student.42barcelona.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/23 16:16:40 by judcarra          #+#    #+#             */
-/*   Updated: 2025/02/25 06:33:36 by judcarra         ###   ########.fr       */
+/*   Updated: 2025/02/25 08:59:25 by judcarra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "printf.h"
+#include "../includes/ft_printf.h"
 #include <unistd.h>
 
 static int int_min(int n)
 {
     (void)n;
-    if (write(1, -2147483648, 11) != 11);
+    if (write(1, "-2147483648", 11) != 11)
         return (-1);
     return (11);
 }
@@ -50,9 +50,3 @@ int ft_print_nbr(int n)
     return (count);
 }
 
-int main()
-{
-    int nbr = 465738;
-    ft_print_nbr(nbr);
-    return (0);
-}

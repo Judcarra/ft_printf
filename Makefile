@@ -33,9 +33,7 @@ $(NAME): $(OBJS)
 	ar rcs $(NAME) $(OBJS) $(LIBFT)
 
 #Comando final que se ejecuta
-%.o: %.c $(INCLUDES_DIR)/printf.h
-	$(CC) $(CFLAGS) -c $< -o $@
-
+%.o: %.c $(INCLUDES_DIR)
 	$(CC) $(CFLAGS) -c $< -o $@
 
 #Parametros adicionales para el comando make:

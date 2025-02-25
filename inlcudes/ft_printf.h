@@ -6,7 +6,7 @@
 /*   By: judcarra <judcarra@student.42barcelona.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/23 08:00:09 by judcarra          #+#    #+#             */
-/*   Updated: 2025/02/23 16:04:56 by judcarra         ###   ########.fr       */
+/*   Updated: 2025/02/25 05:17:41 by judcarra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,8 +18,10 @@
 # include <stddef.h>
 # include <stdarg.h>
 
-int    ft_putchar(int c);
+int    ft_print_char(int c);
 int    ft_print_str(char *str);
+int    ft_print_nbr(int n);
+
 
 
 

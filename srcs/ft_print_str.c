@@ -6,9 +6,11 @@
 /*   By: judcarra <judcarra@student.42barcelona.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/23 14:17:48 by judcarra          #+#    #+#             */
-/*   Updated: 2025/02/23 16:05:07 by judcarra         ###   ########.fr       */
+/*   Updated: 2025/02/25 07:51:02 by judcarra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <unistd.h>
 
 int ft_print_str(char *str)
 {

@@ -41,3 +41,14 @@
 //    ft_hexa_mayus(n);
 //    return (0);
 //}
+
+//int main() {
+//    int num = 79;
+//    int *ptr = &num;
+//
+//    ft_print_ptr(ptr);
+//    write(1, "\n", 1);
+//
+//    ft_print_ptr(NULL);
+//    return(0);
+//}

@@ -6,7 +6,7 @@
 /*   By: judcarra <judcarra@student.42barcelona.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/23 08:00:09 by judcarra          #+#    #+#             */
-/*   Updated: 2025/02/26 07:14:20 by judcarra         ###   ########.fr       */
+/*   Updated: 2025/02/26 14:54:31 by judcarra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,7 @@ int     ft_print_nbr(int n);
 unsigned int        ft_print_unsigned(unsigned int nbr);
 int     ft_hexa_minus(unsigned int n);
 int     ft_hexa_mayus(unsigned int n);
+int     ft_print_ptr(void *ptr);
 
 
 

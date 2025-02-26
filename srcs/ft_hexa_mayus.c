@@ -6,13 +6,13 @@
 /*   By: judcarra <judcarra@student.42barcelona.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/26 07:03:37 by judcarra          #+#    #+#             */
-/*   Updated: 2025/02/26 07:12:37 by judcarra         ###   ########.fr       */
+/*   Updated: 2025/02/26 14:13:29 by judcarra         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/libft.h"
 
-static unsigned int ft_puthexa(char *hstr, unsigned int n, int c)
+static int ft_puthexa(char *hstr, unsigned int n, int c)
 {
     unsigned int s;
 

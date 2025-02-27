@@ -8,7 +8,7 @@ SRCS_DIR = srcs
 INCLUDES_DIR = includes 
 
 #Archivos con las funciones
-SRCS = $(SRCS_DIR)/ft_print_char.c $(SRCS_DIR)/ft_print_str.c $(SRCS_DIR)/ft_print_nbr.c $(SRCS_DIR)/ft_print_unsigned.c $(SRCS_DIR)/ft_hexa_minus.c $(SRCS_DIR)/ft_hexa_mayus.c $(SRCS_DIR)/ft_print_ptr.c
+SRCS = $(SRCS_DIR)/ft_printf.c $(SRCS_DIR)/ft_print_char.c $(SRCS_DIR)/ft_print_str.c $(SRCS_DIR)/ft_print_nbr.c $(SRCS_DIR)/ft_print_unsigned.c $(SRCS_DIR)/ft_hexa_minus.c $(SRCS_DIR)/ft_hexa_mayus.c $(SRCS_DIR)/ft_print_ptr.c
 
 #Variable que guarda los objetos generados a partir de los archivos .c
 OBJS = $(SRCS:.c=.o)
